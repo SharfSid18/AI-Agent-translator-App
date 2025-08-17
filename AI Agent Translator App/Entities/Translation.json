@@ -1,0 +1,23 @@
+{
+  "name": "Translation",
+  "type": "object",
+  "properties": {
+    "arabic_text": {
+      "type": "string",
+      "description": "Original Arabic text"
+    },
+    "urdu_text": {
+      "type": "string",
+      "description": "Translated Urdu text"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the translation was created"
+    }
+  },
+  "required": [
+    "arabic_text",
+    "urdu_text"
+  ]
+}
